@@ -18,8 +18,6 @@ Work Shift Calendar also allows you to take notes for each month.
 In addition Work Shift Calendar shows statistics to quickly analyze your work shifts.
 You can also customize the look and feel of the calendar. Take a look at the Preference section pressing the menu button in your device.
 
-Read more: Work Shift Calendar - Free download and software reviews - CNET Download.com http://download.cnet.com/Work-Shift-Calendar/3000-2124_4-75761866.html#ixzz2hW0y5KqA
-
 ## Libraries
 
 It makes use of the following libraries:

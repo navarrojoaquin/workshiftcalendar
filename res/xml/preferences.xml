@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/prefs_month_category" >
+        <Preference
+            android:key="monthBackgroundColor"
+            android:summary="@string/prefs_month_background_color_summary"
+            android:title="@string/prefs_month_background_color_title" />
+        <Preference
+            android:key="monthTextColor"
+            android:summary="@string/prefs_month_text_color_summary"
+            android:title="@string/prefs_month_text_color_title" />
+        <Preference
+            android:key="todayColor"
+            android:summary="@string/today_color_summary"
+            android:title="@string/today_color_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_week_category" >
+        <Preference
+            android:key="weekBackgroundColor"
+            android:summary="@string/prefs_week_background_color_summary"
+            android:title="@string/prefs_week_background_color_title" />
+        <Preference
+            android:key="weekTextColor"
+            android:summary="@string/prefs_week_text_color_summary"
+            android:title="@string/prefs_week_text_color_title" />
+
+        <ListPreference
+            android:entries="@array/days_of_week"
+            android:entryValues="@array/days_of_week_values"
+            android:key="firstDayOfWeek"
+            android:summary="@string/prefs_week_first_day_summary"
+            android:title="@string/prefs_week_first_day_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_overtime_category" >
+        <Preference
+            android:key="overtimeColor"
+            android:summary="@string/prefs_overtime_color_summary"
+            android:title="@string/prefs_overtime_color_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_dailyNotes_category" >
+        <Preference
+            android:key="dailyNotesColor"
+            android:summary="@string/prefs_dailyNotes_color_summary"
+            android:title="@string/prefs_dailyNotes_color_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_reset_category" >
+        <Preference
+            android:key="reset"
+            android:summary="@string/prefs_reset_summary"
+            android:title="@string/prefs_reset_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

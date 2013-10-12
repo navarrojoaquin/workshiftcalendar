@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/share_menu_item"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="ifRoom"
+        android:title="@string/share_label_menu"/>
+    <item
+        android:id="@+id/pattern_menu_item"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/pattern_label_menu"/>
+    <item
+        android:id="@+id/edit_menu_item"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/edit_label">
+    </item>
+    <item
+        android:id="@+id/notes_menu_item"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/notes_label">
+    </item>
+    <item
+        android:id="@+id/statistics_menu_item"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/statistics_label">
+    </item>
+    <item
+        android:id="@+id/preferences_menu_item"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/preference_label">
+    </item>
+    <item
+        android:id="@+id/backup_menu_item"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/backup_menu_label">
+    </item>
+    <item
+        android:id="@+id/help_menu_item"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/help"/>
+
+</menu>

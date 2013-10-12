@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Work Shift Calendar</string>
+    <string name="horas_totales">Hours of work</string>
+    <string name="select_workshift">Select work shift</string>
+    <string name="select_new_workshift">Select the new work shift</string>
+    <string name="unknown">-</string>
+    <string name="notes_label">Notes</string>
+    <string name="note_edit_header">Notes of</string>
+    <string name="save">Save</string>
+    <string name="saved_note">Saved note</string>
+    <string name="preference_label">Preferences</string>
+    <string name="edit_label">Edit work shifts</string>
+    <string name="help">Help</string>
+    <string name="no_shifts">No work shifts</string>
+    <string name="hours">hours</string>
+    <string name="add_shift_label">Add new work shift</string>
+    <string name="save_button_text">Save</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="name_text_view_label">Work shift name</string>
+    <string name="abbreviation_text_view_label">Abbreviation (max 2 characters)</string>
+    <string name="hours_text_view_label">Hours</string>
+    <string name="error_incomplete_form">Please complete all fields</string>
+    <string name="error_no_valid_characters">Sorry, but the characters \':\' and \';\' are not allowed</string>
+    <string name="shift_saved">Work shift saved</string>
+    <string name="shift_duplicated">Can\'t create shift: a shift with the same name or abbreviation already exists</string>
+    <string name="delete">Delete work shift</string>
+    <string name="shift_deleted">Work shift deleted</string>
+    <string name="change_shift">Change work shift</string>
+    <string name="statistics_label">Statistics</string>
+    <string name="color_pick_label">Color</string>
+    <string name="color_pick_button_text">Change color</string>
+    <string name="color_sample_text_view_label">Color example</string>
+    <string name="color_picker_title">Select color</string>
+    <string name="prefs_month_category">Month</string>
+    <string name="prefs_month_background_color_title">Background color</string>
+    <string name="prefs_month_background_color_summary">Background color for the \'Month\' section</string>
+    <string name="today_color_title">Border color for today</string>
+    <string name="today_color_summary">Border color for the rectangle used to mark the current day</string>
+    <string name="prefs_month_text_color_title">Text color</string>
+    <string name="prefs_month_text_color_summary">Text color for the \'Month\' section</string>
+    <string name="prefs_week_category">Week</string>
+    <string name="prefs_week_background_color_title">Background color</string>
+    <string name="prefs_week_background_color_summary">Background color for the \'Week\' section</string>
+    <string name="prefs_week_text_color_title">Text color</string>
+    <string name="prefs_week_text_color_summary">Text color for the \'Week\' section</string>
+    <string name="prefs_week_first_day_title">First day of week</string>
+    <string name="prefs_week_first_day_summary">Set the first day of week if you don\'t like to use the default value</string>
+    <string name="prefs_reset_category">Reset</string>
+    <string name="prefs_reset_title">Restore values</string>
+    <string name="prefs_reset_summary">Restore default values</string>
+    <string name="prefs_reset_done">Values restored</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="detailed_info">Detailed information</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="default_shifts">Early:E:-16777216:7.0;Late:L:-16777216:7.0;Night:N:-16776961:10.0;Long day:LD:-16776961:24.0;Day off:O:-65536:0.0;Holiday:H:-16711936:0.0;Unemployed:U:-3355444:0.0;</string>
+    <string name="help_dialog_title">Work Shift Calendar</string>
+    <string name="help_dialog_close">Close</string>
+    <string name="help_dialog_close_forever">Don\'t show again</string>
+    <string name="help_dialog_text1"><b>Work Shift Calendar</b> allows you to organize your work shifts.</string>
+    <string name="help_dialog_text2"><b>Set your work shifts</b>: make a long press over the desired day.</string>
+    <string name="help_dialog_text3"><b>Customize your work shifts</b>: create your own work shifts to adapt the application to your needs. Press the \'Menu\' button and select \'Edit work shifts\'.</string>
+    <string name="help_dialog_text4"><b>Set your work shift changes</b>: make a long press over a day with a work shift already set and then select \'Change work shift\'.</string>
+    <string name="help_dialog_text5"><b>A lot of settings:</b> press \'Menu\' button in your device and take a look at them.</string>
+    <string-array name="days_of_week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="days_of_week_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string name="pattern_label">Work Shift Pattern</string>
+    <string name="pattern_label_menu">Work shift pattern</string>
+    <string name="pattern_start_date">Start date</string>
+    <string name="pattern_end_date">End date</string>
+    <string name="pattern_no_date">--</string>
+    <string name="pattern_delete_shift">Delete</string>
+    <string name="pattern_add_shift">Add work shift</string>
+    <string name="pattern_list">Pattern</string>
+    <string name="pattern_no_shifts">Create your pattern adding work shifts with the button above</string>
+	<string name="pattern_save_button">Set work shift pattern</string>
+	<string name="pattern_set_progress">Setting work shift pattern. Please wait.</string>
+	<string name="pattern_set_complete">Work shift pattern set</string>
+	<string name="pattern_set_error">Error setting work shift pattern</string>
+	<string name="pattern_validation_complete_date">Please set start and end dates</string>
+	<string name="pattern_validation_date_order">The end date should be after the start date</string>
+	<string name="pattern_validation_create_pattern">Please create a pattern using the + button</string>
+	<string name="pattern_help_dialog"><b>Pattern creation</b>: Now you can easily create a work shift pattern and repeat it as much as you want. Check it out pressing \'Menu\' - \'Work shift pattern\'.</string>
+	<string name="help_menu_explanation">Check out all the features using the Menu button. If your device doesn\'t have physical Menu button, you can use the \'Action overflow\' button.</string>
+	<string name="help_menu_action_overflow_img_description">Action overflow image</string>
+	<string name="long_press_help">Make a long press to set a work shift</string>
+	<string name="overtime_set">Overtime hours</string>
+	<string name="overtime_abbreviation">OT</string>
+	<string name="total_hours">Total hours</string>
+	<string name="minutes_text_view_label">Minutes</string>
+	<string name="error_form_complete_something">Please, fill at least one field</string>
+	<string name="error_generic">Oops something went wrong. Please try again</string>
+	<string name="overtime_delete">Delete overtime</string>
+	<string name="overtime_delete_tip">Tip: set 0 hours and 0 minutes to delete overtime period</string>
+	<string name="overtime_show_tip">Tap a day to check the overtime period</string>
+	<string name="prefs_overtime_category">Overtime hours</string>
+	<string name="prefs_overtime_color_title">Color</string>
+	<string name="prefs_overtime_color_summary">Text color for the overtime hours abbreviation shown on the calendar</string>
+	<string name="close">Close</string>
+	<string name="detail">Detail of the day</string>
+	<string name="workshift">Work shift</string>
+	<string name="date_range">Date range</string>
+	<string name="basic_usage">Basic usage</string>
+	<string name="twitter_title">Follow us on Twitter!</string>
+	<string name="twitter_url">http://www.twitter.com/wshiftcalendar</string>
+	<string name="twitter_text">Now you can follow us on twitter! Use this link to follow us:</string>
+	<string name="new_feature_1"><b>Overtime hours:</b> now you can organize your overtime hours. Make a long press over a day and check it out.</string>
+	<string name="new_feature_2"><b>Customizable statistics:</b> you can set up the period used to calculate the statistics.</string>
+	<string name="new_feature_3"><b>Improved shift creation:</b> now you can create your custom work shift in an easier way.</string>
+	<string name="new_feature_4"><b>New look and feel:</b> new style with the Android\'s new action bar.</string>
+	<!-- v1.3.0  -->
+	<string name="backup_menu_label">Backup</string>
+	<string name="backup_activity_label">Backup</string>
+	<string name="backup_make_title">Make backup</string>
+	<string name="backup_make_text">Use the following button to backup your data and your settings. The backup will be created in your_sdcard/WorkShiftCalendar folder.</string>
+	<string name="backup_make_button_text">Backup</string>
+	<string name="backup_restore_title">Restore backup</string>
+	<string name="backup_restore_text">If you have a WorkShiftCalendar backup you can restore it with the button below.</string>
+	<string name="backup_restore_button_text">Restore</string>
+	<string name="backup_chooser_title">Choose a backup.zip file</string>
+	<string name="backup_toast_making">Making backup</string>
+	<string name="backup_toast_ok">Backup OK</string>
+	<string name="backup_toast_fail">Backup failed</string>
+	<string name="backup_toast_restoring">Restoring backup</string>
+	<string name="backup_toast_file_choose_error">Error choosing backup file</string>
+	<string name="backup_toast_wrong_file">Wrong file. Select a backup.zip file</string>
+	<string name="backup_toast_unzip_error">Error unziping file</string>
+	<string name="backup_toast_preference_error">Error restoring preferences</string>
+	<string name="backup_toast_preference_not_found">Preference backup not found</string>
+	<string name="backup_toast_database_error">Error restoring database</string>
+	<string name="backup_toast_database_not_found">Database backup not found</string>
+	<string name="backup_toast_restore_ok">Backup restored</string>
+	<string name="backup_toast_restore_fail">Restore failed</string>
+	<string name="features">Features</string>
+	<string name="new_feature_5"><b>Backup</b>: now you can save and restore your data and your settings. Very useful if you change your device!</string>
+	<!-- v1.4.0 -->
+	<string name="daily_notes">Edit notes</string>
+	<string name="daily_notes_delete">Delete notes</string>
+	<string name="prefs_dailyNotes_category">Daily notes</string>
+	<string name="prefs_dailyNotes_color_title">Color</string>
+	<string name="prefs_dailyNotes_color_summary">Color for the indicator shown on the calendar</string>
+	<string name="daily_notes_header">Note</string>
+	<string name="daily_notes_saved_toast">The note has been saved</string>
+	<string name="share_label_menu">Share</string>
+	<string name="screenshot_prefix">WorkShiftCalendar</string>
+	<string name="screenshot_saved">Screenshot stored on the SD card</string>
+	<string name="whats_new">What\'s new (v1.4.0)</string>
+	<string name="new_feature_6"><b>Share</b>: New feature to share a screenshot of your work shifts.</string>
+	<string name="new_feature_7"><b>Notes</b>: New feature to create notes for each day.</string>
+	<string name="new_feature_8"><b>Negative hours</b>: Now you can add create work shifts and overtime periods with negative hours.</string>
+	<string name="new_feature_9"><b>Install on the SD card</b>: This version allows you to install WorkShiftCalendar on your SD card.</string>
+	
+</resources>

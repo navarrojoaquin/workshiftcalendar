@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="week_top_margin">40dp</dimen>
+    <dimen name="cell_margin_top">65dp</dimen>
+    <dimen name="cell_text_size">11sp</dimen>
+    <dimen name="statistics_text_size">13sp</dimen>
+    <dimen name="shift_text_size">15sp</dimen>
+    <dimen name="prev_shift_text_size">12sp</dimen>
+    <dimen name="today_stroke_width">1.5dp</dimen>
+    <dimen name="month_year_text_size">20sp</dimen>
+    <dimen name="week_title_text_size">13sp</dimen>
+
+</resources>

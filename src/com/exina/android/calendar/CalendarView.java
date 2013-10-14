@@ -503,7 +503,7 @@ public class CalendarView extends View {
 
 	public void setDate(Calendar date) {
 		mHelper = new MonthDisplayHelper(date.get(Calendar.YEAR),
-				date.get(Calendar.MONTH), date.getFirstDayOfWeek());
+				date.get(Calendar.MONTH), firstDayOfWeek);
 		mStats = new Statistics(mContext, this);
 	}
 

@@ -3,11 +3,11 @@
     package="com.jnsapps.workshiftcalendar"
     android:installLocation="auto"
     android:versionCode="18"
-    android:versionName="1.4.3" >
+    android:versionName="1.4.4" >
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="18" />
+        android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -41,9 +41,6 @@
         <activity
             android:name=".BackupActivity"
             android:label="@string/backup_activity_label" />
-        <activity
-            android:name="com.google.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
         <activity
             android:name="com.ipaulpro.afilechooser.FileChooserActivity"
             android:icon="@drawable/ic_chooser"

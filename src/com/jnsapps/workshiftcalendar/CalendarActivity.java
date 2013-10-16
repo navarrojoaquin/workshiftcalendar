@@ -713,7 +713,7 @@ public class CalendarActivity extends SherlockActivity implements
 
 	protected void initNote() {
 		CalendarView cv = (CalendarView) ((CustomScrollView) awesomePager
-				.getChildAt(0)).findViewById(R.id.calendarview);
+				.getChildAt(1)).findViewById(R.id.calendarview);
 		Intent i = new Intent(this, NoteActivity.class);
 		i.putExtra(NoteActivity.EXTRA_MONTH_ID, cv.getMonth());
 		i.putExtra(NoteActivity.EXTRA_YEAR_ID, cv.getYear());
